@@ -1,6 +1,7 @@
 name: Create Pull Request
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [create-pr]
 
